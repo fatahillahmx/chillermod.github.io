@@ -1,0 +1,413 @@
+@font-face {
+	font-family: "Quicksand";
+	src: url("fonts/Quicksand.otf");
+}
+@font-face {
+	font-family: "Squared";
+	src: url("fonts/Squared.ttf");
+}
+body	{
+	margin: 0 auto;
+	font-family: Quicksand;
+	background: url("img/3bg.jpg")no-repeat fixed;
+	background-size: cover;
+}
+header{
+	width: 100%;
+	text-align: center;
+	height: 100vh;
+	font-size: 12px;
+}
+.container	{
+	width: 100%;
+	height: 100%;
+	border: 0px solid blue;
+	}
+
+.container ul	{
+	border: 0px solid yellow;
+	width: 100%;
+	display: inline-table;
+	margin: auto;
+	padding: 0;
+}
+
+.container li	{
+	margin: 0;
+	padding: 80px 10px 10px 10px;
+	vertical-align: top;
+	border: 0px solid red;
+	font-weight: bold;
+	border-radius: 0 0 4px 4px;
+	list-style-type: none;
+	display: inline-block;
+}
+
+.container .selected	{
+	background-color: #F94244;
+	opacity: 1;
+}
+
+.container a	{
+	margin: 0;
+	padding: 80px 10px 10px 10px;
+	text-decoration: none;
+	opacity: 0.7;
+}
+
+.container a:hover	{
+	color: #fff;
+	background-color: #F94244;
+	transition: ease-in 0.3s;
+	opacity: 1;
+	border-radius: 0 0 4px 4px;
+}
+
+.container a:visited	{
+	color: #fff;
+	box-shadow: 2px black;
+}
+
+.container .logo	{
+	margin: 0;
+	transition: all 1s ease-in-out;
+	padding-top: 30px; 
+	width: 200px;
+	height: 200px;
+	background: url("img/logo.png") no-repeat center 50px;
+	background-size: 80%;
+}
+
+.slogan	{
+	max-height: 60%;
+	max-width: 90%;
+	transition: all 1s ease-in-out;
+}
+
+.wrapper	{
+	border: 0px solid red;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+
+.up	{
+	background-color: #000;
+	border:0px solid yellow;
+	width: 100%;
+	height: 25%;
+	box-shadow: 0 0 50px 10px #000;
+	overflow: hidden;
+}
+
+.mid	{
+	border:0px solid pink;
+	width: 100%;
+	height: 60%;
+}
+
+.content-up	{
+	margin-left: 30%;
+	border:0px solid red;
+	padding: 3% 0 0 3%;
+	color: #fff;
+}
+
+.content-up h1{
+	color : #fff;
+	margin: 10px 0 0 0;
+	font-size: 50px;
+}
+
+.content-up p{
+	color : #00bcd4;
+	margin: 0;
+	font-size: 20px;
+}
+
+.blue{
+	background: #00bcd4;
+}
+
+.orange{
+	background: #f8931f;
+}
+
+.pink{
+	background: #ed1e79;
+}
+
+.content-mid	{
+	margin-left: 30%;
+	border:0px solid red;
+	width: 80%;
+}
+
+.member	{
+	margin-left: 5%;
+	padding:5%;
+	border:0px solid blue;
+	width: 20%;
+	float: left;
+	z-index: 1;
+	height:50vh;
+}
+
+.tosca	{
+	background: #00bcd4;
+}
+
+.orange	{
+	background: #f8931f;
+}
+
+.member-detail	{
+	border: 0px solid red;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: #fff;
+}
+
+.member-detail table img	{
+	border-radius: 100%;
+}
+
+.member-detail .foto	{
+	border-radius: 100%;
+	border: 0px solid blue;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	position: center center;
+	box-shadow: 0 0 20px #000;
+}
+
+.down	{
+	background-color: #000;
+	border:0px solid pink;
+	width: 100%;
+	height: 15%;
+	box-shadow: 0 0 50px 10px #000;
+	overflow: hidden;
+	z-index: 2;
+	position: absolute;
+}
+
+.ver 	{
+	border:0px solid red;
+	z-index: 3;
+	position: absolute;
+	height: 100vh;
+	width: 25%;
+	left: 5%;
+	background: url("img/2.jpg") no-repeat center center;
+	box-shadow:  0 0 20px 5px #000;
+	overflow: hidden;
+}
+
+.portofolio	{
+	height: 100vh;
+	color: #fff;
+	text-align: center;
+}
+.atas	{
+	margin-top: 50px; 
+}
+
+.atas img	{
+	padding-top: 30px; 
+	}
+
+.atas h1	{
+	margin: 0; 
+	font-family: Quicksand;
+	font-size: 50px;
+}
+
+.tengah	{
+	width: 100%;0
+	text-align: center;
+	border: 0px solid #fff;
+}
+
+.kotak	{
+	width: 20%;
+	border: 0px solid #fff;
+	box-shadow:  0 0 10px 2px #000;
+	display: inline-block;
+	margin:30px 10px 10px 10px;
+
+}
+
+.kotak:hover	{
+	box-shadow:  0 0 10px 5px #000;
+	transform: scale(1.02);
+	transition: ease-in-out 0.2s;
+}
+
+.centerwrapper	{
+	margin:auto;
+	width: 100%
+}
+.gbr	{
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+.ima	{
+	padding: 0;
+	margin: 0;
+}
+
+.ket	{
+	background-color: #fff;
+	color: #333;
+	margin: 0;
+	padding: 10px;
+}
+
+.ket h1	{
+	padding: 10px 0 0 0;
+	margin:0;
+}
+.ket .bold	{
+	font-weight: bold;
+	color: #000;
+}
+
+.ket table	{
+	text-align: left;
+}
+
+.ket hr	{
+	padding: 0;
+
+}
+
+.gallery	{
+	width: 100%;
+	height: 100vh;
+	background:url("img/5bg.jpg") no-repeat center center;
+	background-size: cover;
+	color: #fff;
+}
+
+.gallery .gal-atas	{
+	width: 100%;
+	height: 25%;
+	border: 0px solid yellow;
+}
+
+.gallery .img-atas	{
+	max-height: 100%;
+	transition: all 0.5s ease-in-out;
+	transform: scale(1.05);
+}
+
+.gallery .img-atas:hover	{
+	max-height: 100%;
+	box-shadow:  0 0 10px 5px #000;
+	transform: scale(1.01);
+	transition: ease-in-out 0.2s;
+}
+
+.gallery .gal-tengah	{
+	width: 100%;
+	border: 0px solid yellow;
+	height: 50%
+}
+
+.gallery .gal-tengah-center	{
+	height: 100%;
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 5%;
+}
+
+.gal-tengah-center {
+	width: 50%;
+	text-align: center;
+}
+
+.gallery .gal-bawah	{
+	width: 100%;
+	height: 25%;
+	border: 0px solid red;
+}
+
+
+.ver-right 	{
+	border:0px solid red;
+	z-index: 3;
+	position: absolute;
+	height: 100vh;
+	width: 25%;
+	right: 5%;
+	background: url("img/1.jpg") no-repeat center center;
+	box-shadow:  0 0 20px 5px #000;
+	overflow: hidden;
+}
+.content-mid-right	{
+	margin-right: 30%;
+	border:0px solid red;
+}
+
+.member-right	{
+	margin-right: 5%;
+	padding:5%;
+	border:0px solid blue;
+	width: 80%;
+	float: right;
+	z-index: 1;
+	height:60vh;
+	background-color: #fff;
+}
+
+.member-right img	{
+	max-width: 100%;
+	padding: 0;
+	margin:0 auto;
+}
+
+.up-right	{
+	background-color: #000;
+	border:0px solid yellow;
+	width: 100%;
+	height: 25%;
+	box-shadow: 0 0 50px 10px #000;
+	overflow: hidden;
+}
+
+.content-up-right	{
+	margin-left: 5;
+	border:0px solid red;
+	padding: 3% 0 0 3%;
+	color: #fff;
+}
+.footer	{
+	width: 100%;
+	height: 100vh;
+}
+.footer-wrapper	{
+	color: #fff;
+	width: 100%;
+	margin:auto;
+	text-align: center;
+	vertical-align: middle;
+	height: 100vh;
+	padding-top: 10%;
+}
+.footer-wrapper	table img{
+	border-radius: 100%;
+}
+
+.footer-wrapper h1 {
+	font-size: 72px;
+	font-family: Squared;
+}
